@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniApi-Books</title>
+</head>
+<body>
+    {{ book.title }}
+    </br>
+    {% for book in books %}
+        {{ book.author }}<br>
+    {% endfor %}
+</body>
+</html>
